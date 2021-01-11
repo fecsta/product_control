@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_login">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.app.crudapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_usuarios"
+        android:name="com.app.crudapp.ui.usuarios.UsusariosFragment"
+        android:label="@string/menu_usuarios"
+        tools:layout="@layout/usuarios_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_usuarios_add"
+        android:name="com.app.crudapp.ui.usuarios.UsuariosAddFragment"
+        android:label="@string/menu_usuarios_add"
+        tools:layout="@layout/usuarios_add_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_usuarios_edit"
+        android:name="com.app.crudapp.ui.usuarios.UsuariosEditFragment"
+        android:label="@string/menu_usuarios_edit"
+        tools:layout="@layout/usuarios_edit_fragment">
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/nav_produtos"
+        android:name="com.app.crudapp.ui.produtos.ProdutosFragment"
+        android:label="@string/menu_produtos"
+        tools:layout="@layout/produtos_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_produtos_add"
+        android:name="com.app.crudapp.ui.produtos.ProdutosAddFragment"
+        android:label="@string/menu_produtos_add"
+        tools:layout="@layout/produtos_add_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_produtos_edit"
+        android:name="com.app.crudapp.ui.produtos.ProdutosEditFragment"
+        android:label="@string/menu_produtos_edit"
+        tools:layout="@layout/produtos_edit_fragment">
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="com.app.crudapp.ui.sobre.SobreFragment"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/sobre_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.app.crudapp.ui.usuarios.LoginFragment"
+        android:label=""
+        tools:layout="@layout/login_fragment">
+    </fragment>
+
+</navigation>

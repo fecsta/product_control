@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Product Control</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+
+    <string name="menu_home">Home</string>
+
+    <string name="menu_produtos">Products</string>
+    <string name="menu_produtos_add">New Product</string>
+    <string name="menu_produtos_edit">Edit Product</string>
+
+    <string name="menu_usuarios">Users</string>
+    <string name="menu_usuarios_add">New User</string>
+    <string name="menu_usuarios_edit">Edit User</string>
+
+    <string name="menu_sobre">About</string>
+
+    <string name="nome_aluno">Felipe Costa de Araujo</string>
+    <string name="version_app">Version 1.0.0</string>
+</resources>
